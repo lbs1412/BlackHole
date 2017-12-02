@@ -1,0 +1,15 @@
+﻿  main.cpp
+  Application.cpp
+c:\work\c++\lab01\lab01\application.cpp(28): warning C4805: “==”: 在操作中将类型“sf::Keyboard::Key”与类型“bool”混合不安全
+  正在生成代码...
+  正在编译...
+  grid.cpp
+c:\work\c++\lab01\lab01\view\grid.cpp(14): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\work\c++\lab01\lab01\view\grid.cpp(15): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\work\c++\lab01\lab01\view\grid.cpp(17): warning C4305: “参数”: 从“double”到“float”截断
+  TextArea.cpp
+c:\work\c++\lab01\lab01\view\textarea.cpp(16): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  funcs.cpp
+  Fuck.cpp
+  正在生成代码...
+  lab01.vcxproj -> C:\work\C++\lab01\Debug\lab01.exe
