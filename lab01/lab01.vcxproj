@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>packages\SFML\include;$(IncludePath)</IncludePath>
-    <LibraryPath>packages\SFML\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\packages\SFML\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\packages\SFML\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

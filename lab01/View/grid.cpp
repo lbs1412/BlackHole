@@ -40,7 +40,7 @@ void Grid::controlGrid(sf::RenderWindow& window) {
 	if (!(x >= 0 && x < rows&&y >= 0 && y < cols))return;
 	static bool pressed = false;
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-		Sleep(80);
+		Sleep(90);
 		this->vis[x][y] = !this->vis[x][y];
 		this->g[x][y].setFillColor(vis[x][y]? sf::Color::Black: sf::Color::White);
 	}
