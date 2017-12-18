@@ -118,7 +118,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Control\Fuck.cpp" />
+    <ClCompile Include="Control\data_caculate.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Utils\funcs.cpp" />
     <ClCompile Include="View\grid.cpp" />
@@ -127,7 +127,7 @@
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="config.h" />
-    <ClInclude Include="Control\Fuck.h" />
+    <ClInclude Include="Control\data_caculate.h" />
     <ClInclude Include="config" />
     <ClInclude Include="Res\info" />
     <ClInclude Include="stdafx.h" />

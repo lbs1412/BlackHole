@@ -18,9 +18,6 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Control\Fuck.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Utils\funcs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -33,12 +30,12 @@
     <ClCompile Include="Application.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Control\data_caculate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Control\Fuck.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Utils\funcs.h">
@@ -60,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="config">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\data_caculate.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

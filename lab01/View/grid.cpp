@@ -3,6 +3,8 @@
 Grid::Grid(int rows, int cols, int width, int height){
 	this->rows = rows;
 	this->cols = cols;
+	this->width = width;
+	this->height = height;
 	this->vis.clear();this->vis.resize(rows);
 	for (int i = 0; i < rows; i++)vis[i].resize(cols);
 	vr r;
@@ -13,7 +15,7 @@ Grid::Grid(int rows, int cols, int width, int height){
 			rect.setFillColor(sf::Color::White);
 			rect.setPosition(width * i, height * j);
 			rect.setSize(sf::Vector2f(width, height));
-			rect.setOutlineColor(sf::Color::Cyan);
+			rect.setOutlineColor(sf::Color::Color(0,0,0,255));
 			rect.setOutlineThickness(0.6);
 			r.push_back(rect);
 		}
@@ -36,12 +38,13 @@ void Grid::drawGrid(sf::RenderWindow& window) {
 }
 void Grid::controlGrid(sf::RenderWindow& window) {
 	auto pos = sf::Mouse::getPosition(window);
-	int x = pos.x /rows, y = pos.y / cols;
+	int x = pos.x /width, y = pos.y / height;
 	if (!(x >= 0 && x < rows&&y >= 0 && y < cols))return;
 	static bool pressed = false;
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+		std::cout << "MouseLeft clicked at " << "(" <<x<<","<<y<< ")" << std::endl;
 		Sleep(90);
 		this->vis[x][y] = !this->vis[x][y];
-		this->g[x][y].setFillColor(vis[x][y]? sf::Color::Black: sf::Color::White);
+		this->g[x][y].setFillColor(vis[x][y]? sf::Color::Black : sf::Color::White);
 	}
 }

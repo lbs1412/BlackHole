@@ -16,14 +16,12 @@ int main(){
 
 
 namespace {
-
-	void loadConfig(Config& config)
-	{
+	void loadConfig(Config& config){
 		std::ifstream configFile("config");
 		std::string key;
 		if (configFile.is_open()) {
 			while (configFile >> key) {
-				if (key == "windowssize") {
+				if (key == "windowsize") {
 					configFile >> config.windowX >> config.windowY;
 					std::cout << "Window Size: "
 						<< config.windowX << " " << config.windowY

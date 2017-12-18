@@ -12,5 +12,5 @@ struct Config{
 	sf::Color bg_color			= sf::Color::Black;
 	sf::Color t_color			= sf::Color::Black;
 	sf::Color f_color			= sf::Color::White;
-	std::string window_name		="black hole";
+	std::string window_name		= "lbs black hole";
 };

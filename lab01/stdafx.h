@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML/Graphics.hpp>
+
 #include <cstdio>
 #include <cmath>
 #include <cstdlib>
@@ -12,8 +12,11 @@
 #include <sstream>
 #include <fstream>
 #include <algorithm>
+#include <cstring>
+#include <set>
 
 #include <windows.h>
+#include <SFML/Graphics.hpp>
 
 #include "View/TextArea.h"
 #include "View/grid.h"
@@ -21,3 +24,4 @@
 #include "Control/fuck.h"
 #include "config.h"
 #include "Application.h"
+#include "Control/data_caculate.h"

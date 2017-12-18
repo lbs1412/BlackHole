@@ -6,7 +6,7 @@ typedef std::vector<bool> vb;
 class Grid {
 private:
 	std::vector<vr> g;
-	int rows,cols;
+	int rows,cols,width,height;
 public:
 	std::vector<vb> vis;
 public:

@@ -7,6 +7,7 @@ Application::Application(const Config& config)
 	
 }
 void Application::runLoop() {
+	std::cout << window.getPosition().x << "," << window.getPosition().y << std::endl;
 	while (window.isOpen()) {
 		handleEvent();
 		grid.controlGrid(window);
