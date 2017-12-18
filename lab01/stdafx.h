@@ -19,9 +19,9 @@
 #include <SFML/Graphics.hpp>
 
 #include "View/TextArea.h"
-#include "View/grid.h"
-#include "Utils/funcs.h"
-#include "Control/fuck.h"
+#include "View/Grid.h"
+#include "Utils/Funcs.h"
+#include "Control/Fuck.h"
 #include "config.h"
 #include "Application.h"
 #include "Control/data_caculate.h"
